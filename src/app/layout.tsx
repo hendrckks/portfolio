@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable}`}>
       <ClientBody>
-        <div className="flex flex-col max-w-screen min-h-screen">
+        <div className="flex flex-col max-w-screen min-h-screen overflow-hidden">
           <Navbar />
           <main className="flex-grow">
             {children}
