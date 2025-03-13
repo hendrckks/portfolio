@@ -105,7 +105,8 @@ export default function PortfolioGallery() {
                           className="p-2 rounded-[6px] text-sm tracking-tight font-medium flex items-center gap-2 bg-black/5 hover:bg-black/10 duration-300 ease-in-out transition-colors"
                           title="View Live Demo"
                         >
-                          Live demo <ExternalLink className="w-4 h-4" />
+                          <span className="md:block hidden">Live demo</span>
+                          <ExternalLink className="md:w-4 md:h-4 w-5 h-5" />
                         </button>
                       )}
                     </div>
